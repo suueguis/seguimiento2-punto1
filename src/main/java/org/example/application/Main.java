@@ -15,7 +15,7 @@ public class Main {
     public static void main(String[] args) {
         int opcion;
         do {
-            JOptionPane.showMessageDialog(null,"1. Registrar Paciente" + "2. Mostrar Pacientes" + "3. Salir" );
+            JOptionPane.showMessageDialog(null,"1.. Registrar Paciente" + "2. Mostrar Pacientes" + "3. Salir" );
             opcion = Integer.parseInt(JOptionPane.showInputDialog("Seleccione una opción: "));
             scanner.nextLine();  // Limpiar el buffer
 
